@@ -13,6 +13,9 @@ This is a plan for Opus to **research first, then build in stages**. Do not skip
 
 ## Phase 0 — Research & decide the display approach (the critical decision)
 
+> **Status: DONE.** Findings + comparison table + priced BOM in [docs/research.md](docs/research.md).
+> Recommendation: **flexible AMOLED wrap for the v1 face** (now hobbyist-available with plug-and-play HDMI boards — this reverses the plan's earlier assumption that driver boards were the blocker), with **rear projection pursued in parallel as the higher-realism v2**. Full 360° coverage deferred to Phase 3+; v1 = front + partial sides as display, crown/back a static shell. **Budget checkpoint: ~$786 for the recommended build — awaiting go-ahead before ordering hardware.**
+
 Research each candidate and produce a short comparison (cost, realism, resolution, curvature, weight, power, fragility). Recommend one primary + one fallback.
 
 1. **Rear projection onto a translucent face shell** — a pico projector inside the helmet projects an animated face onto a molded translucent mask (this is how Furhat Robotics achieves realistic robot faces). Best realism per dollar because the face is projected onto actual 3D face geometry; weak in bright light; front-of-face only.
